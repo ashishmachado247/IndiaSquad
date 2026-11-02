@@ -1,0 +1,43 @@
+
+
+img {
+    height: 200px;
+    
+  }
+  
+*{
+    background-color: antiquewhite;
+}
+
+
+  h1{
+    color: whitesmoke;
+    background-color: darkseagreen;
+    text-align: center;
+  }
+  h2{
+    color: #FAF8F1;
+    background-color: #C58940;
+  }
+  
+
+  .cricketer-img {
+    border: 5px solid white;
+    
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 200fr 200fr 200fr 200fr;
+    grid-template-rows: 100px 300px 300px 300px;
+    gap: 30px;
+  }
+
+  .first {
+    grid-column: span 4;
+  }
+
+  .card {
+    background-color: lightskyblue;
+  }
